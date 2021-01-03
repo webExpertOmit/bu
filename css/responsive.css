@@ -1,0 +1,258 @@
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 1023px and max 1515px
+======================================================================*/
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 961px and max 1024px
+======================================================================*/
+
+
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 768px and max 960px
+======================================================================*/
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 960px) {
+    
+    .slider-content h1{
+        font-size: 25px;
+    }
+    .slider-content h4{
+        font-size: 16px;
+    }
+    .search{
+        width: 180px;
+    }
+    .menu-area .nav{
+        display: block;
+    }
+    .main-menu ul li a{
+        text-align: center;
+    }
+    .welcome-area h2{
+        margin-top: 20px;
+    }
+    .top-footer-area{
+        text-align: center;
+    }
+    .top-footer-item .nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-item h2{
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .top-footer-item .s-btn{
+        left: 375px;
+    }
+      
+    
+}
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 600px and max 767px
+======================================================================*/ 
+    
+ @media screen and (min-device-width: 600px) and (max-device-width: 767px){
+     body{
+         font-size: 13px;
+     }
+     
+     .top-bar{
+         font-size: 10px;
+         justify-content: center;
+     }
+     .top-bar-icon{
+         justify-content: center;
+     }
+    .menu-area .nav{
+        display: block;
+    }
+    .main-menu ul li a{
+        text-align: center;
+    }
+      .slider-content h1{
+        font-size: 18px;
+    }
+    .slider-content h4{
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+     .search{
+        width: 180px;
+         margin-bottom: 10px;
+    }
+      .welcome-area h2{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+     .section-title h2{
+         font-size: 25px;
+     }
+     
+     .teacher-icon{
+         position: absolute;
+         top:5%;
+         width: 100%;
+         font-size: 16px;
+         opacity: 0;
+    }
+    .teacher-info:hover .teacher-icon{
+        top:45%;
+        opacity: 1;
+        transition: .4s;
+    }
+     .top-footer-area{
+        text-align: center;
+    }
+    .top-footer-item .nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-item h2{
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .top-footer-item .s-btn{
+        left: 310px;
+    }
+     .footer-bottom-item h2{
+         margin-bottom: 10px;
+     }
+     .footer-bottom-item {
+        padding: 10px 0px;
+    }
+     .footer-bottom-item p{
+         font-size: 13px;
+     }
+     .date{ 
+         padding: 0; 
+     }
+     .copy-right p {
+        text-align: center;
+    }
+     .p-copy .nav{
+         justify-content: center;
+         width: 100%;
+     }
+     .section-title{
+         width: 500px;
+     }
+     
+}
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 350px and max 599px
+======================================================================*/ 
+    
+@media screen and (min-device-width: 350px) and (max-device-width: 599px){
+    body{
+        font-size: 13px;
+    }
+         .top-bar{
+         font-size: 10px;
+         justify-content: center;
+     }
+     .top-bar-icon{
+         justify-content: center;
+     }
+    .menu-area .nav{
+        display: block;
+    }
+    .main-menu ul li a{
+        text-align: center;
+    }
+        .slider-content h1{
+        font-size: 18px;
+    }
+    .slider-content h4{
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+     .search{
+        display: none;
+    }
+    .ss-btn{
+        display: none;
+    }
+    .our-bullat{
+        display: none;
+    }
+    .slider-content h4{
+        display: none;
+    }
+     .welcome-area h2{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .section-title{
+        width: 350px;
+    }
+    .section-title h2{
+        font-size: 22px;
+    }
+      .teacher-icon{
+         position: absolute;
+         top:5%;
+         width: 100%;
+         font-size: 16px;
+         opacity: 0;
+    }
+    .teacher-info:hover .teacher-icon{
+        top:45%;
+        opacity: 1;
+        transition: .4s;
+    }
+      .top-footer-area{
+        text-align: center;
+    }
+    .top-footer-item .nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-item h2{
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .top-footer-item .s-btn{
+        left: 200px;
+    }
+     .footer-bottom-item h2{
+         margin-bottom: 10px;
+     }
+     .footer-bottom-item {
+        padding: 10px 0px;
+    }
+     .footer-bottom-item p{
+         font-size: 13px;
+     }
+    .date{
+         padding: 0;
+     }
+     .copy-right p {
+        text-align: center;
+    }
+     .p-copy .nav{
+         justify-content: center;
+         width: 100%;
+     }
+     
+}
+
+
+
+
